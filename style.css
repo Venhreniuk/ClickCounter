@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+    background: linear-gradient(45deg, rgb(106, 133, 182), #bac8e0), no-repeat;
+}
+
+.cover-container{
+    width: 100%;
+    max-width: 540px;
+    background: rgba(235, 233, 233, 0.775);
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
