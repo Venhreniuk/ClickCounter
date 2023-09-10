@@ -21,3 +21,4 @@ function save() {
 let countStr = counter + ' - ';
 saveValue.textContent += countStr;
 }
+

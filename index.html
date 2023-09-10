@@ -11,11 +11,15 @@
 <body>
     <div class="main-container">
         <div class="cover-container">
-            <h1>Passed</h1>
+            <h1 class="passed-item">Passed</h1>
             <h2 id="passed-value">0</h2>
-            <button id="plus-btn" onclick="income()">+</button>
-            <button id="minus-btn" onclick="outcome()">-</button>
-            <button id="save-btn" onclick="save()">SAVE</button>
+            <div class="button-main__container">
+                <button id="plus-btn" onclick="income()">+</button>
+                <button id="minus-btn" onclick="outcome()">-</button>
+            </div>
+            <div class="save-btn__container">
+                <button class="save-btn" id="save-btn" onclick="save()">SAVE</button>
+            </div>
             <p id="save-el">Stored value: </p>
         </div>
     </div>
